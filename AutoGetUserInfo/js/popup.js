@@ -13,7 +13,8 @@ const update = () => {
 document.getElementById('send-message-btn').addEventListener('click', () => {
     update()
 });
+update()
 
 setInterval(() => {
     update()
-}, 500)
+}, 5000)

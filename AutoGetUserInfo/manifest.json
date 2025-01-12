@@ -4,8 +4,6 @@
     "version": "1.0",
     "description": "Automatically calls /api/getUserInfo API every 10 minutes",
     "permissions": [
-        "activeTab",
-        "scripting",
         "background"
     ],
     "host_permissions": [
