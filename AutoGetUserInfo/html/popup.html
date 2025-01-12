@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoGetUserInfo</title>
+</head>
+<style>
+    .auto-get-user-info {
+        width: 300px;
+        max-height: 500px;
+        overflow: auto;
+
+
+    }
+
+    .head {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #send-message-btn {
+        color: #fff;
+        background-color: #409eff;
+        border-color: #409eff;
+        border: 1px solid #dcdfe6;
+        border-radius: 4px;
+        padding: 4px 8px;
+        cursor: pointer;
+    }
+</style>
+
+<body>
+    <div class="auto-get-user-info">
+        <strong>AutoGetUserInfo: 后台自动调用getUserInfo接口</strong>
+        <div class="head">
+            <p>当前自动调用的接口：</p>
+            <button id="send-message-btn">刷新</button>
+        </div>
+
+        <p id="wang-xing-p"></p>
+
+        <script src="../js/popup.js"></script>
+    </div>
+
+</body>
+
+
+
+</html>
